@@ -1,0 +1,15 @@
+name: '5001'
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - scikit-learn
+  - ipykernel
+  - flake8
+  - pandas
+  - autopep8
+  - pip:
+    - imbalanced-learn==0.9.0
+    - xgboost==1.6.0
+prefix: /opt/homebrew/Caskroom/miniforge/base/envs/5001
